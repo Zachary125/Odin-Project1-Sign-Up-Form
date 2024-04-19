@@ -1,0 +1,248 @@
+@font-face {
+  font-family: norse;
+  src: url("fonts/norse-bold-webfont.woff") format("woff"),
+    url("fonts/norse-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Poppins";
+}
+
+.signup {
+  display: flex;
+  height: 100vh;
+}
+
+
+
+
+
+
+.odin-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+ z-index: 3;
+}
+
+
+.bg-container {
+  background-image: url("./images/bg-img.jpg");
+  background-size: cover;
+  width: 38%; 
+  position: relative;
+  
+  }
+
+
+
+
+
+.image-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20rem;
+  padding: 1rem 0;
+  float:left;
+  position:relative;
+  
+  object-fit: fill;
+ 
+  
+
+}
+
+.odin-img1 {
+  
+  display: flex;
+  position :absolute;
+  width:100%;
+  
+  z-index: 1;
+  height:940px
+  
+
+ 
+}
+
+.odin-img2 {
+  display: flex;
+  z-index: 2;
+  
+  
+  
+  position: relative;
+  
+  left:2%;
+  
+ 
+  width: 39%;
+  height: 39%;
+
+
+}
+
+
+.odin-text {
+  font-family: norse;
+  font-size: 7rem;
+  color: #fff;
+  
+  position: absolute;
+  color: white;
+  right: 100px;
+  top: 50%;
+  background: transparent;
+  
+  z-index: 3;
+
+  
+}
+
+.content-container {
+  width: 61%;
+
+  
+}
+
+.description {
+  height: 34rem;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 2.2rem;
+  font-weight: 600;
+  gap: 2rem;
+  padding: 0 0 5rem 4rem;
+  line-height: 1.2;
+}
+
+fieldset {
+  position: relative;
+  padding: 5rem 0 3rem 4rem;
+  border: none;
+  box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+}
+
+legend {
+  position: absolute;
+  top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+label {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+input {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 3px;
+  font-size: 1.4rem;
+  padding: 0.5rem 0.7rem;
+  width: 25rem;
+}
+
+input:focus {
+  outline: 1px solid rgb(0, 102, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+}
+
+
+
+/* Styling the form footer */
+
+.form-footer {
+  margin-top: 3rem;
+  padding: 0 0 3rem 4rem;
+}
+
+.form-footer p {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+
+/*Styling the form's elements*/
+
+.form-row {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.form-row div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #596d48;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 1rem 5rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.login {
+  color: #596d48;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.img-credit {
+  color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-credit a {
+  color: #fff;
+}
+
+
+input:invalid{
+  border: 2px solid red;
+}
+input:valid:2px solid black;

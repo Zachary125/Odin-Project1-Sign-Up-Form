@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+   <!--
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    -->
+    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  
+  <body>
+    <section class="signup">
+      <div class="bg-container">
+        <div class="image-container">
+          <img class="odin-img1" src="Halie_West.jpg" alt="" />
+           
+             <img class="odin-img2" src="odin-lined.png" alt="" />
+             <div class="odin-text">Odin</div>
+         
+        </div>
+        
+        
+        <div class="img-credit">
+          Photo by
+          <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+            >Unsplash</a >
+        </div>
+        
+      </div>
+      
+      
+      <div class="content-container">
+        <div class="description">
+          
+          <div>
+            <p>This is not a real online service! You know you need something like this in you life to help you realize your deepest dreams.
+            </p>
+       <p>Sign up now to get started</p>
+       
+          </div>
+          
+          
+          <p class="sub-title">You know you want to.</p>
+        </div>
+        
+        
+        <form>
+          <fieldset>
+            
+            <legend>Let's do this!</legend>
+            
+            
+      <!--first name and last name -->          
+            <div class="form-row">
+   
+              <div>
+                <label for="fname">first name</label>
+                <input type="text" 
+                       name="first-name"    id="fname"
+                       placeholder="Enter your first name"
+                       required />
+              </div>
+              
+              <div>
+                <label for="lname">last name</label>
+                <input type="text" 
+                       name="last-name"    id="lname"
+                       placeholder="Enter your last name"
+                       required/>
+              </div>
+            </div>
+            
+  
+   <!--Email and Phone Number -->         
+            <div class="form-row">
+              <div>
+                <label for="email">email </label>
+             <input  type="email" 
+                     name="email" 
+                     id="email"
+                     placeholder="johndoe@gmail.com"
+                     required/>
+              </div>
+              
+              <div>
+                <label for="number">phone number</label>
+                <input
+                  type="tel"
+                  name="phonenumber"
+                  id="number"
+                  required 
+                />
+              </div>
+            </div>
+            
+  <!--Password and Confirm Password -->
+            <div class="form-row">
+              <div>
+                <label for="password">password</label>
+              <input type="password"         name="password" 
+                     id="password" 
+                     placeholder="Enter at least 6 character"
+                     required
+                     />
+               
+              </div>
+              <div>
+                <label for="cpassword">confirm password</label>
+                <input type="password" name="cpassword" id="cpassword" 
+                required/>
+              </div>
+            </div>
+            
+          </fieldset>
+          
+          
+          
+    <!--form footer -->          
+          <div class="form-footer">
+            <button class="btn" 
+                    type="submit">Create Account</button>
+            <p>Already have an account? <a href="#" class="login">Log in</a>
+            
+            </p>
+          </div>
+          
+        </form>
+        
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
