@@ -133,7 +133,7 @@ body {
   height: 34rem;
   background-color: #f9fafb;
   display: flex;
-  flex-direction: column;
+ flex-direction: column; 
   justify-content: flex-end;
   font-size: 2.2rem;
   font-weight: 600;
@@ -194,14 +194,14 @@ input:focus {
 
 .form-row {
   display: flex;
-  gap: 3rem;
+  gap: 3rem; 
   margin-top: 2rem;
 }
 
 .form-row div {
   display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
+  flex-direction: column; 
+  gap: 0.3rem; 
 }
 
 .btn {
@@ -245,4 +245,7 @@ input:focus {
 input:invalid{
   border: 2px solid red;
 }
-input:valid:2px solid black;
+
+input:valid{
+border:2px solid black;
+}
